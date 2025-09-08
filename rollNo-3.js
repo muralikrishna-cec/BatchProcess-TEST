@@ -1,11 +1,9 @@
-function greetUser(name) {
-  if (!name) {
-    console.log("No name provided");
-    return;
-  }
-  console.log("Hello, " + name + "!");
+console.log("Hello, World!");
+
+let total = 0;
+for (let i = 0; i < 10; i++) {
+  total += i;
 }
 
-document.getElementById("btn").addEventListener("click", function () {
-  greetUser("Alice");
-});
+console.log("Total: " + total);
+
