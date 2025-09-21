@@ -5,6 +5,6 @@ public class HelloWorld {
         for (int i = 0; i < 10; i++) {
             total += i;
         }
-        System.out.println("Total: " + total);
+        System.out.println("Total: " + total)
     }
 }
